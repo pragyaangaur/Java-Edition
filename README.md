@@ -6,7 +6,7 @@ The Coffee Bucket restores hunger, grants temporary Speed and Haste, and has a s
 
 Check out how it works (the GIF may take a moment to load...):
 
-<p align="center"> <img src="Assets/Java-Edition.gif" alt="GIF loading..." width="800"></p>
+<p align="center"> <img src="Java-Edition.gif" alt="GIF loading..." width="800"></p>
 
 ## Features
 
