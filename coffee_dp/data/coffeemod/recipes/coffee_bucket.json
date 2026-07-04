@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    " M "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "minecraft:bucket",
+    "components": {
+      "minecraft:item_name": {
+        "text": "Coffee Bucket",
+        "italic": false
+      },
+      "minecraft:item_model": "minecraft:coffee_bucket",
+      "minecraft:max_stack_size": 1,
+      "minecraft:food": {
+        "nutrition": 4,
+        "saturation": 0.1,
+        "can_always_eat": true
+      },
+      "minecraft:use_remainder": "minecraft:bucket",
+      "minecraft:consumable": {
+        "consume_seconds": 1.6,
+        "animation": "drink",
+        "sound": "minecraft:entity.generic.drink",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:speed",
+                "amplifier": 0,
+                "duration": 200
+              }
+            ]
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:haste",
+                "amplifier": 0,
+                "duration": 200
+              }
+            ]
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 0,
+                "duration": 200
+              }
+            ],
+            "probability": 0.2
+          }
+        ]
+      }
+    }
+  }
+}
