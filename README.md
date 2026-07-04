@@ -4,6 +4,10 @@ A Minecraft datapack and resource pack that adds a craftable **Coffee Bucket** t
 
 The Coffee Bucket restores hunger, grants temporary Speed and Haste, and has a small chance of causing Nausea, because caffeine always comes with a trade-off.
 
+Check out how it works (the GIF may take a moment to load...):
+
+<p align="center"> <img src="Assets/Java-Edition.gif" alt="GIF loading..." width="800"></p>
+
 ## Features
 
 - Craftable Coffee Bucket
